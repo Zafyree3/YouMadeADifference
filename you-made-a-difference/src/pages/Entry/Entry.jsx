@@ -1,8 +1,10 @@
 import React from 'react';
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Entry() {
 
+    let navigate = useNavigate();
     const [password, setPassword] = useState();
     const [showPassword, setShowPassword] = useState(false);
     const toggleShowPassword = () => {
@@ -10,12 +12,12 @@ export default function Entry() {
     };
     const handleSubmit = () => {
         if (password === '12345') {
-            alert("You Enter Correctly");
             setPassword("")
+            navigate('/home')
             return;
         }
-        alert('Buu Buu')
         setPassword("")
+        alert('The password is wrong.\nPlease re-enter the password.')
         return;
     };
 
