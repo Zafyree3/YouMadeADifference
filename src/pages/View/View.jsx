@@ -16,7 +16,6 @@ export default function View() {
     const doc = new GoogleSpreadsheet(SPREADSHEET_ID);
 
     let UserID = location.state
-    console.log(UserID)
 
     const [repeat, setRepeat] = useState(true);
     const [data, setData] = useState([]);
@@ -38,7 +37,6 @@ export default function View() {
                 if (msgRow[i] !== undefined) {
                     setData(data => [...data, {sender: msgRow[i].sender, text: msgRow[i].text, reciever: msgRow[i].reciever, id: i}])
                 } else {
-                    console.log('bro your gay')
                     return
                 }
             }
@@ -65,8 +63,7 @@ export default function View() {
                     if (dataRow[i].ID === UserID) {
                         setUserName(dataRow[i].name)
                     }
-                } else {
-                    console.log('caught ass lacking')
+                } else { 
                     return
                 }
             }
