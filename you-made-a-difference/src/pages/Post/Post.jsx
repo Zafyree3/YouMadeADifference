@@ -90,9 +90,10 @@ export default function Post() {
     }
     // eslint-disable-next-line
     useEffect(() => {
-        if (repeat) {}
+        if (repeat) {
             fetchName()
             setRepeat(false)
+        }
     });
     useEffect(() => {
         if (to1 !== "N/A" && post1 !== "" && 
