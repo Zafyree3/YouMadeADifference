@@ -1,0 +1,65 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url(../Assests/2.png);
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.write {
+    width: 30vw;
+    height: 20vh;
+    font-size: 40px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 0px 50px;
+    margin-right: 4vw;
+    margin-top: 20vh;
+    cursor: pointer;
+    color: #E67769;
+    background-color: #FCF4EE;
+}
+
+.view {
+    width: 30vw;
+    height: 20vh;
+    font-size: 40px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 0px 50px;
+    margin-top: 20vh;
+    cursor: pointer;
+    color: #E67769;
+    margin-bottom: 3vh;
+    background-color: #FCF4EE;
+}
+.divContainer {
+    margin-left: 4vw;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.keyText{
+    align-self: center;
+    font-size: x-large;
+    color: #FCF4EE;
+    font-weight: 550;
+    margin-bottom: 1vh;
+}
+.viewInput {
+    border: none;
+    height: fit-content;
+    background-color: #FCF4EE;
+    color: #E67769;
+    font-size: large;
+    padding: 10px 5px;
+}
+.viewInput:focus {
+    outline: 0;
+}
+.viewInput::placeholder {
+    color:#ec9f94;
+}

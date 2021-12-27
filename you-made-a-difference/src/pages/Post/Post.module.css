@@ -1,0 +1,81 @@
+.background {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../Assests/3.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow-y: hidden;
+}
+.postContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-self: center;
+    margin-top: 4vh;
+    overflow-x: clip;
+    overflow-y: scroll;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 4vh;
+    overflow-x: clip;
+    overflow-y: scroll;
+}
+.title {
+    font-size: 70px;
+    font-family:"Apple Chancery", "Lucida Handwriting", "Brush Script MT", cursive;
+    align-self: center;
+}
+.msgContainer {
+    height: 40vh;
+    width: 45vw;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 5vh 3vw;
+}
+.subtitle {
+    font-size: 30px;
+}
+.sender {
+    height: 4vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 1vh;
+    background-color: white;
+}
+.message {
+    height: 14vh;
+    font-size: 20px;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    padding: 1vh 1vh;
+    max-lines: 10;
+}
+.button {
+    height:fit-content;
+    font-size: 30px;
+    margin-bottom: 4vh;
+    width: fit-content;
+    align-self: center;
+    padding: 1vh 2vw;
+    border: none;
+    border-radius: 20px;
+    background-color: #C7E5DC;
+    color: #E67769;
+}

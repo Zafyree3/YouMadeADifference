@@ -10,8 +10,8 @@ export default function App() {
         <div>
             <Router>
                 <Routes>
-                    <Route path="/" element={<Entry/>} />
-                    <Route path="/entry" element={<Entry/>} />
+                    <Route path="/" element={<Home/>} />
+                    {/* <Route path="/entry" element={<Entry/>} /> */}
                     <Route path="/home" element={<Home/>}/>
                     <Route path="/view" element={<View/>} />
                     <Route path="/post" element={<Post/>} />
