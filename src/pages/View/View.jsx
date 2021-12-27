@@ -6,7 +6,6 @@ import spreadsheetID from "../data/spreadsheetID";
 import apiEmail from "../data/apiEmail";
 import privateKey from "../data/privateKey";
 
-
 export default function View() {
 
     let location = useLocation()
