@@ -89,7 +89,7 @@ export default function Post() {
             console.log(e)
         }
     }
-
+    // eslint-disable-next-line
     useEffect(() => {
         if (repeat) {}
             fetchName()

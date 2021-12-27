@@ -90,7 +90,7 @@ export default function View() {
             </div>
         )
     }
-
+    // eslint-disable-next-line
     useEffect(()=> {
         if (repeat) {
             fetchData()
